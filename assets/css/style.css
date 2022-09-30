@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+ */
+
+@font-face {
+    font-family: opensans_regular;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: athene;
+    src: url(../fonts/Athene.otf);
+}
+
+@font-face {
+    font-family: radley;
+    src: url(../fonts/Radley-Regular.ttf);
+}
+
+header {
+    color: #042A5A;
+    background-color: #EFE8D7;
+}
+
+header nav {
+    display: flex;
+    /* gap: 50%; */
+    justify-content: space-between;
+    margin: 2vh 0vh;
+    border-bottom: 2px solid #042A5A;
+}
+
+header nav p {
+    font-family: opensans_regular;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.10rem;
+    padding: 2vh 10vw;
+}
+
+header section article {
+    width: 90%;
+    margin: 8vh
+}
+
+header section article h1 {
+    text-align: center;
+    font-family: athene;
+    font-size: 16rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 2px solid #042A5A;
+}
+
+header section article h1:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #042A5A;
+}
+
+header section article span {
+    display: inline-block;
+    height: 2px;
+    width: 196px;
+    margin: 0 2%;
+    background-color: #042A5A;
+}
+
+.copyright::after {
+    content: "\00a9";
+    font-family: radley;
+    font-size: 16rem;
+}
+
+header section figure {
+    text-align: center;
+}
+
+header section figure figcaption {
+    font-family: opensans_regular;
+    font-size: 1.8rem;
+    padding: 20px 130px 0 0;
+}
+
+header section figure figcaption span {
+    font-family: atene;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: -0.3rem;
+}
