@@ -35,7 +35,7 @@ header nav {
     display: flex;
     /* gap: 50%; */
     justify-content: space-between;
-    margin: 2vh 0vh;
+    margin-bottom: 2vh;
     border-bottom: 2px solid #042A5A;
 }
 
